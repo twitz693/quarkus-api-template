@@ -22,7 +22,13 @@ dependencies {
 
     // DI
     implementation("io.quarkus:quarkus-arc")
+
+    // REST
     implementation("io.quarkus:quarkus-resteasy-reactive")
+    implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
+
+    // DOCS
+    implementation("io.quarkus:quarkus-smallrye-openapi")
 
     // TESTS
     testImplementation("io.quarkus:quarkus-junit5")
