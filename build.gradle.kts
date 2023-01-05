@@ -27,6 +27,9 @@ dependencies {
     implementation("io.quarkus:quarkus-resteasy-reactive")
     implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
 
+    // DATABASE
+    implementation("io.quarkus:quarkus-mongodb-panache-kotlin")
+
     // DOCS
     implementation("io.quarkus:quarkus-smallrye-openapi")
 
