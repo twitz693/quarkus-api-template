@@ -27,6 +27,9 @@ dependencies {
     implementation("io.quarkus:quarkus-resteasy-reactive")
     implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
 
+    // METRICS AND INFORMATION
+    implementation("io.quarkus:quarkus-logging-json")
+
     // DATABASE
     implementation("io.quarkus:quarkus-mongodb-panache-kotlin")
 
