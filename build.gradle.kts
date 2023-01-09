@@ -27,6 +27,10 @@ dependencies {
     implementation("io.quarkus:quarkus-resteasy-reactive")
     implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
 
+    // SECURITY
+    implementation("io.quarkus:quarkus-oidc")
+    implementation("io.quarkus:quarkus-keycloak-authorization")
+
     // METRICS AND INFORMATION
     implementation("io.quarkus:quarkus-logging-json")
 

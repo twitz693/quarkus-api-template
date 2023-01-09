@@ -5,6 +5,8 @@ import com.twitz.ResourceDoesNotExistsException
 import com.twitz.ResourcesAlreadyExistsException
 import com.twitz.profile.model.dto.CreateProfile
 import com.twitz.profile.model.dto.ProfileDetails
+import io.quarkus.security.Authenticated
+import javax.annotation.security.RolesAllowed
 import javax.inject.Inject
 import javax.ws.rs.DELETE
 import javax.ws.rs.GET
@@ -12,6 +14,7 @@ import javax.ws.rs.POST
 import javax.ws.rs.Path
 
 @Path("/profiles")
+@Authenticated
 class ProfileResource {
 
     @Inject
