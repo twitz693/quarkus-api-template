@@ -1,5 +1,5 @@
 package com.twitz
 
-class CollectionResponse<T> (
+data class CollectionResponse<T> (
     var data: T
 )
